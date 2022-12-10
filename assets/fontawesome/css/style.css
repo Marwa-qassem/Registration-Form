@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mulish:wght@400;500&display=swap");
 
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-
 .get-started-bg,
 .register-bg {
   height: 100vh;
@@ -43,6 +35,22 @@
 .text-sm-center{
   text-align: start!important;
 }
+.register-p{
+Font-size: 20px;
+}
+.input-icons i {
+  position: absolute;
+}
+.icon {
+  padding: 15px;
+  min-width: 50px;
+  text-align: center;
+}
+.input-field {
+  padding: 10px;
+  padding-left: 50px;
+  border-radius: 10px;
+}
 
 /*---------------------- Media Query ---------------------------- */
 
@@ -60,5 +68,8 @@
   .get-started-bg,
   .register-bg{
     background: rgba(245, 247, 255, 0.85);
+  }
+  .register{
+    height: 100vh;
   }
 }
