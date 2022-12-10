@@ -23,17 +23,15 @@
                   />
                 </div>
               </div>
-              <div class="col-md-6 register-data text-sm-center my-2 px-5">
+              <div class="col-md-6 register-data text-sm-center">
                 <h1 class="pt-4">Create Account</h1>
                 <p class="register-p">
                   Go ahead and sign up, let everyone know how awesome you are!
                 </p>
 
-
-                <form  class="row g-3 my-3 register-data">
+                <form  class="row g-3 mb-3">
                     <div class="input-icons d-flex bg-white">
                         <i class="fa-regular fa-user text-primary icon"></i>
-                        <div class="icon-brd"></div>
                         <input
                           type="text"
                           name="username"
@@ -43,7 +41,7 @@
                           required
                         />
                       </div>
-                      <p id="usernameAlert" class="d-none text-danger m-0">User name must be at least 5 letters, only letters and numbers are allowed</p>
+                      <p id="usernameAlert" class="d-none text-danger m-0 alert-p">Name must be at least 5 letters, only letters & numbers are allowed</p>
 
                       <div class="input-icons d-flex bg-white">
                         <i class="fa-regular fa-envelope text-primary icon"></i>
@@ -56,7 +54,7 @@
                           required
                         />
                       </div>
-                      <p id="userEmailAlert" class="d-none text-danger m-0">name@example.com</p>
+                      <p id="userEmailAlert" class="d-none text-danger m-0 alert-p">name@example.com</p>
 
 
                       <div class="input-icons d-flex bg-white">
@@ -70,7 +68,7 @@
                           required
                         />
                       </div>
-                      <p id="userPasswordAlert" class="d-none text-danger m-0">Your password must be at least 8 characters</p>
+                      <p id="userPasswordAlert" class="d-none text-danger m-0 alert-p">Your password must be at least 8 characters</p>
 
                       <div class="input-icons d-flex bg-white">
                         <i class="fa-solid fa-lock text-primary icon"></i>
@@ -83,9 +81,9 @@
                           required
                         />
                       </div>
-                      <p id="confirmedPasswordAlert" class="d-none text-danger m-0">Password doesn't match</p>
+                      <p id="confirmedPasswordAlert" class="d-none text-danger m-0 alert-p">Password doesn't match</p>
                   <div>
-                    <p class="text-danger d-none m-0" id="tryAgainMsg">Sign up failed! please try again</p>
+                    <p class="text-danger d-none m-0 alert-p" id="tryAgainMsg">Sign up failed! please try again</p>
                   </div>
 
                     <a href=" ">

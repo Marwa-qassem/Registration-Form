@@ -37,21 +37,22 @@
 .text-sm-center{
   text-align: start!important;
 }
+.register-data{
+  padding: 0 50px ;
+}
 .register-p{
 Font-size: 20px;
 }
 .input-icons{
-  border: 1px solid rgb(210, 207, 207);
+  border: 1px solid #DBE3FF;
   border-radius: 10px;
 }
 .icon{
-  padding: 15px;
+  padding: 15px ;
 }
-.icon-brd{
-  top: 10;
-  height: 30px;
-  background-color: rgba(245, 247, 255, 0.85);
-  width: 1px;
+.alert-p{
+  line-height: 16px;
+  font-size: small;
 }
 .input-field {
   border: 0;
