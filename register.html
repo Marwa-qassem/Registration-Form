@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/style.css">
+  </head>
+  <body>
+    
+      <div class="register-bg">
+        <div class="container">
+          <div class="register">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-md-6">
+                <div class="register-img p-5">
+                  <img
+                    src="./assets/images/register/istockphoto-1312944654-612x612.jpg"
+                    class="w-100 img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 register-data text-sm-center">
+                <h1 class="pt-4">Create Account</h1>
+                <p class="my-3">
+                  Go ahead and sign up, let everyone know how awesome you are!
+                </p>
+
+                <form  class="row g-3 my-3 register-data">
+                  <div class="col-12">
+                    <div class="input-group">
+                      <div class="input-group-text w-75 border-0">
+                        <i class="fa-regular fa-user text-primary"></i>
+                        <input
+                          type="text"
+                          name="username"
+                          class="form-control border-0 bg-transparent"
+                          id="usernameInput"
+                          placeholder="Username"
+                          required
+                        />
+                      </div>
+                      <p id="usernameAlert" class="d-none text-danger m-0">User name must be at least 5 letters, only letters and numbers are allowed</p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-group">
+                      <div class="input-group-text w-75 border-0">
+                        <i class="fa-regular fa-envelope text-primary"></i>
+                        <input
+                          type="email"
+                          name="email"
+                          class="form-control border-0 bg-transparent"
+                          id="userEmailInput"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                      <p id="userEmailAlert" class="d-none text-danger">name@example.com</p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-group">
+                      <div class="input-group-text w-75 border-0">
+                        <i class="fa-solid fa-lock text-primary"></i>
+                        <input
+                          type="password"
+                          name="password"
+                          class="form-control border-0 bg-transparent"
+                          id="userPasswordInput"
+                          placeholder="password"
+                          required
+                        />
+                      </div>
+                      <p id="userPasswordAlert" class="d-none text-danger m-0">Your password must be at least 8 characters</p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-group">
+                      <div class="input-group-text w-75 border-0">
+                        <i class="fa-solid fa-lock text-primary"></i>
+                        <input
+                          type="password"
+                          name="password_confirmation"
+                          class="form-control border-0 bg-transparent"
+                          id="confirmedPassword"
+                          placeholder="Confirm password"
+                          required
+                        />
+                      </div>
+                      <p id="confirmedPasswordAlert" class="d-none text-danger m-0">Password doesn't match</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-danger d-none" id="tryAgainMsg">Sign up failed! please try again</p>
+                  </div>
+                  <div class="col-12">
+                    <a href=" ">
+                    <button class="submit-btn" id="registerBtn" type="button" onclick=" event.preventDefault(); signUp()">Create account</button>
+                  </a> 
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="./assets/scripts/main.js"></script>
+  </body>
+</html>
