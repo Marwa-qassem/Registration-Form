@@ -40,17 +40,21 @@
 .register-p{
 Font-size: 20px;
 }
-.input-icons i {
-  position: absolute;
+.input-icons{
+  border: 1px solid rgb(210, 207, 207);
+  border-radius: 10px;
 }
-.icon {
+.icon{
   padding: 15px;
-  min-width: 50px;
+}
+.icon-brd{
+  top: 10;
+  height: 30px;
+  background-color: rgba(245, 247, 255, 0.85);
+  width: 1px;
 }
 .input-field {
-  padding: 10px;
-  padding-left: 50px;
-  border-radius: 10px;
+  border: 0;
 }
 
 /*---------------------- Media Query ---------------------------- */

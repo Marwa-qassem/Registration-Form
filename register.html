@@ -31,9 +31,9 @@
 
 
                 <form  class="row g-3 my-3 register-data">
-                    <div class="input-icons d-flex">
+                    <div class="input-icons d-flex bg-white">
                         <i class="fa-regular fa-user text-primary icon"></i>
-
+                        <div class="icon-brd"></div>
                         <input
                           type="text"
                           name="username"
@@ -42,10 +42,10 @@
                           placeholder="Username"
                           required
                         />
+                      </div>
                       <p id="usernameAlert" class="d-none text-danger m-0">User name must be at least 5 letters, only letters and numbers are allowed</p>
-                    </div>
 
-                      <div class="input-icons">
+                      <div class="input-icons d-flex bg-white">
                         <i class="fa-regular fa-envelope text-primary icon"></i>
                         <input
                           type="email"
@@ -55,11 +55,11 @@
                           placeholder="Email"
                           required
                         />
-                        <p id="userEmailAlert" class="d-none text-danger">name@example.com</p>
                       </div>
+                      <p id="userEmailAlert" class="d-none text-danger m-0">name@example.com</p>
 
 
-                      <div class="input-icons">
+                      <div class="input-icons d-flex bg-white">
                         <i class="fa-solid fa-lock text-primary icon"></i>
                         <input
                           type="password"
@@ -69,10 +69,10 @@
                           placeholder="password"
                           required
                         />
-                        <p id="userPasswordAlert" class="d-none text-danger m-0">Your password must be at least 8 characters</p>
                       </div>
+                      <p id="userPasswordAlert" class="d-none text-danger m-0">Your password must be at least 8 characters</p>
 
-                      <div class="input-icons">
+                      <div class="input-icons d-flex bg-white">
                         <i class="fa-solid fa-lock text-primary icon"></i>
                         <input
                           type="password"
@@ -82,8 +82,8 @@
                           placeholder="Confirm password"
                           required
                         />
-                        <p id="confirmedPasswordAlert" class="d-none text-danger m-0">Password doesn't match</p>
                       </div>
+                      <p id="confirmedPasswordAlert" class="d-none text-danger m-0">Password doesn't match</p>
                   <div>
                     <p class="text-danger d-none m-0" id="tryAgainMsg">Sign up failed! please try again</p>
                   </div>
