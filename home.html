@@ -10,25 +10,24 @@
     <link rel="stylesheet" href="./assets/fontawesome/css/style.css">
 </head>
 <body onload="displayUserEmail()">
-    
-    <section id="home-section">
-        <div class="home w-75 py-5 bg-white">
-            <div class="container">          
-                <div class="row">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div class="col-md-6 px-3">
+
+    <div class="home-bg">
+        <div class="container">          
+            <div class="home">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <div class="home-img p-5">
                             <img class="w-100 img-fluid" src="./assets/images/home/istockphoto-1254582953-612x612.jpg">
                         </div>
-                        <div class="col-md-6 px-3">
-                            <h1 class="mb-4">Successfully Logged in </h1>
-                            <p class="mt-2" id="userEmail"></p>
-                                        
-                        </div>
+                    </div>
+                    <div class="col-md-6 home-data text-sm-center">
+                        <h1 class="mb-4">Successfully Logged in </h1>
+                        <p class="mt-2" id="userEmail"></p>             
                     </div>
                 </div>
             </div>
-        </div>    
-    </section>
+        </div>
+    </div>    
 
     <script src="./assets/scripts/main.js"></script>
 </body>
