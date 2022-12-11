@@ -64,6 +64,9 @@
   .home-data{
     margin: 50px 0;
 }
+.register-data{
+  padding-left: 20px !important;
+}
   .p-5 {
     padding: 0px !important;
   }
@@ -80,6 +83,8 @@
   .get-started{
     height: 100%;
     margin-top: 50px;
-    
+  }
+  .register-p{
+    font-size: small;
   }
 }
