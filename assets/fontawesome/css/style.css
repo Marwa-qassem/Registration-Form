@@ -21,8 +21,7 @@
   background-color: rgba(245, 247, 255, 0.85);
   border-radius: 10px;
   font-family: 'Mulish', sans-serif;
-  line-height: 25px;
-  
+
 }
 .get-started-btn,
 .submit-btn{
@@ -54,6 +53,10 @@
 }
 .input-field {
   border: 0;
+}
+.input-field:focus,
+.input-field{
+  box-shadow: none;
 }
 
 /*---------------------- Media Query ---------------------------- */
